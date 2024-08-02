@@ -14,22 +14,24 @@ import java.util.Collections;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
+ * @author shahn July 31 2024
  */
 public class GroupOfCards {
-
-    //The group of cards, stored in an ArrayList
-    private ArrayList<Card> cards;
-    private int size;//the size of the grouping
+    public ArrayList<Card> cards;
+    public int size;
 
     public GroupOfCards(int size) {
         this.size = size;
+        this.cards = new ArrayList<>();
+        String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
+        String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
+        for (String suit : suits) {
+            for (String rank : ranks) {
+                cards.add(new PlayingCard(suit, rank));
+            }
+        }
     }
 
-    /**
-     * A method that will get the group of cards as an ArrayList
-     *
-     * @return the group of cards.
-     */
     public ArrayList<Card> getCards() {
         return cards;
     }
@@ -38,18 +40,18 @@ public class GroupOfCards {
         Collections.shuffle(cards);
     }
 
-    /**
-     * @return the size of the group of cards
-     */
+    public Card drawCard() {
+        if (cards.size() > 0) {
+            return cards.remove(0);
+        }
+        return null;
+    }
+
     public int getSize() {
         return size;
     }
 
-    /**
-     * @param size the max size for the group of cards
-     */
     public void setSize(int size) {
         this.size = size;
     }
-
 }//end class
