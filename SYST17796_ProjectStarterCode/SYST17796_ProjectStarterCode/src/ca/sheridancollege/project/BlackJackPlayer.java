@@ -7,6 +7,7 @@ import java.util.ArrayList;
 /**
  *
  * @author shahn
+ * @author drish
  */
 public class BlackJackPlayer extends Player {
     private Hand hand;
