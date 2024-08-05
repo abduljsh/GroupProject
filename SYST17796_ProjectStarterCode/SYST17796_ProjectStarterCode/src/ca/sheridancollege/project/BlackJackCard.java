@@ -7,6 +7,7 @@ package ca.sheridancollege.project;
 /**
  *
  * @author shahn
+ * @author drish
  */
 public class BlackJackCard extends Card {
     private String suit;
@@ -25,7 +26,7 @@ public class BlackJackCard extends Card {
         return rank;
     }
 
-    @Override
+@Override 
     public String toString() {
         return rank + " of " + suit;
     }
