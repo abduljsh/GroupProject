@@ -7,6 +7,7 @@ package ca.sheridancollege.project;
 /**
  *
  * @author shahn
+ * @author drish
  */
 import java.util.ArrayList;
 
@@ -50,7 +51,7 @@ public class Hand {
         return total;
     }
 
-    @Override
+  @Override
     public String toString() {
         return cards.toString();
     }
