@@ -73,17 +73,18 @@ public class BlackJackGame extends Game {
         }
     }
 
-   @Override
+    @Override
     public void declareWinner() {
         int playerTotal = player.getHand().calculateTotal();
-        int dealerTotal = dealer.getHand().calculateTotal();
+        int dealerTotal = dealer.getHAnd().calculateTotal();
 
         if (dealerTotal > 21 || playerTotal > dealerTotal) {
             System.out.println("Player wins!");
-        } else if (playerTotal < dealerTotal) {
-            System.out.println("Dealer wins!");
+        } elase if (Playertotal < dealerTotal) {
+            System.out.println("Dealer Wins!");
         } else {
-            System.out.println("It's a tie!");
+            System.out.println("It's a tie !");
         }
     }
 }
+
