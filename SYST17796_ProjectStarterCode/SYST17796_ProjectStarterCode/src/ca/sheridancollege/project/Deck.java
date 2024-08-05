@@ -9,6 +9,7 @@ import java.util.Collections;
 /**
  *
  * @author shahn
+ * @author drish
  */
 public class Deck extends GroupOfCards {
     public Deck() {
