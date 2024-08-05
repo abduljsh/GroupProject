@@ -14,6 +14,7 @@ import java.util.ArrayList;
  * @author dancye
  * @author Paul Bonenfant Jan 2020
  * @author shahn July 31 2024
+ * @author drish aug 4 2024
  */
 public abstract class Game {
     private final String name;
@@ -32,9 +33,10 @@ public abstract class Game {
         return players;
     }
 
-    public void setPlayers(ArrayList<Player> players) {
+    public void setPlayers (ArrayList<Player> players) {
         this.players = players;
     }
+    
 
     public abstract void play();
 
