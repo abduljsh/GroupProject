@@ -23,6 +23,7 @@ public class Deck extends GroupOfCards {
         }
         shuffle();
     }
+    
 
     public BlackJackCard dealCard() {
         return (BlackJackCard) cards.remove(cards.size() - 1);
