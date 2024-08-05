@@ -11,8 +11,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author shahn
+ * @author shahn 
+ * @author shaarush
  */
+
+
+
 public class BlackJackLogicTest {
     
     public BlackJackLogicTest() {
