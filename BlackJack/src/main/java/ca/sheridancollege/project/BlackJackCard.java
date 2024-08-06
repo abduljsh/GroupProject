@@ -6,7 +6,10 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author shahn
+ * @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public class BlackJackCard extends Card {
     private String suit;
@@ -41,7 +44,7 @@ public class BlackJackCard extends Card {
             case "8": return 8;
             case "9": return 9;
             case "10": case "J": case "Q": case "K": return 10;
-            case "A": return 11; // Value of Ace can be 1 or 11, handled in game logic
+            case "A": return 11; 
             default: throw new IllegalArgumentException("Unknown card rank: " + rank);
         }
     }

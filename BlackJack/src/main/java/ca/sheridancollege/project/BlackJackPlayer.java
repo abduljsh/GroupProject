@@ -6,7 +6,10 @@ package ca.sheridancollege.project;
 import java.util.ArrayList;
 /**
  *
- * @author shahn
+* @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public class BlackJackPlayer extends Player {
     private Hand hand;

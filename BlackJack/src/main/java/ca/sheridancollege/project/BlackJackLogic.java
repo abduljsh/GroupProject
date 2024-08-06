@@ -7,7 +7,10 @@ import java.util.List;
 
 /**
  *
- * @author shahn
+ * @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public class BlackJackLogic {
 

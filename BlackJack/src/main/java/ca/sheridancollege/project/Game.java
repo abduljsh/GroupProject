@@ -13,7 +13,10 @@ import java.util.ArrayList;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
- * @author shahn July 31 2024
+ * @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public abstract class Game {
     private final String name;

@@ -14,7 +14,10 @@ import java.util.Collections;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
- * @author shahn July 31 2024
+ * @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public class GroupOfCards {
     public ArrayList<Card> cards;

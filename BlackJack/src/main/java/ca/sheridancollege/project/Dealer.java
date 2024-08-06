@@ -7,7 +7,10 @@ import java.util.ArrayList;
 
 /**
  *
- * @author shahn
+* @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 public class Dealer extends Player {
     private Hand hand;

@@ -6,7 +6,10 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author shahn
+* @author shahaana
+ * @author drishya
+ * @author alvy
+ * @author aarushi
  */
 import java.util.ArrayList;
 
